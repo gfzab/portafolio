@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/assets/img/usuario.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <title>Portafolio</title>
+</head>
+
+<body>
+  <div class="contenedor-header">
+    <header>
+      <div class="logo">
+        <a href="#">Gabriel</a>
+      </div>
+      <nav id="nav" class="responsive">
+        <ul>
+          <li>
+            <a href="#inicio" onclick="seleccionar()">INICIO</a>
+          </li>
+          <li>
+            <a href="#sobremi" onclick="seleccionar()">SOBRE MI</a>
+          </li>
+          <li>
+            <a href="#skills" onclick="seleccionar()">SKILLS</a>
+          </li>
+          <li>
+            <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
+          </li>
+          <li>
+            <a href="#myproyects" onclick="seleccionar()">PROYECTOS</a>
+          </li>
+          <li>
+            <a href="#contacto" onclick="seleccionar()">CONTACTO</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+  </div>
+  <!-- SECCION INICIO -->
+  <section id="inicio" class="inicio">
+    <div class="contenido-banner">
+      <div class="contenedor-img">
+        <img src="assets/img/img-perfil.jpg" type="image" alt="" />
+      </div>
+      <h1>GABRIEL ZABALA</h1>
+      <h2>Desarrollador Web - Fullstack</h2>
+      <div class="redes">
+        <a href="https://www.facebook.com/profile.php?id=100076507928080"
+          target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/gabriel-emilio-zabala-serrano-248a46189/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/gfzab" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://w.app/khKWNa" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--SECCION SOBRE MI -->
+  <section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+      <h2>Sobre Mi</h2>
+      <p><span>¡Hola!</span> me llamo <span>Gabriel Zabala </span> Me gusta la creación original y las nuevas  ideas. Buscando la oportunidad de mostrar mis habilidades y desenvolvimiento en el area de desarrollo web. Me destaco en HTML - CSS - JAVASCRIPT - REACT JS. Actualmente especializandome en Backend con NODE JS en Academlo. </p>
+
+      <div class="fila">
+        <!--datos personales -->
+        <div class="col">
+          <h3>Datos Personales</h3>
+          <ul>
+            <li>
+              <strong>Cumpleaños</strong>
+              19-11-1993
+            </li>
+            <li>
+              <strong>Teléfono</strong>
+              +57 312 3396351
+            </li>
+            <li>
+              <strong>Email</strong>
+              gfzabala93@gmail.com
+            </li>
+            <li>
+              <strong>Website</strong>
+              www.gabzab.com
+            </li>
+            <li>
+              <strong>Direccion</strong>
+              car 18 # 26-25, Yopal Casanare
+            </li>
+            <li>
+              <strong>Cargo</strong>
+              <span>FREELANCE</span>
+            </li>
+          </ul>
+
+        </div>
+
+        <!-- intereses -->
+        <div class="col">
+          <h3>Intereses</h3>
+          <div class="contenedor-intereses">
+            <div class="interes">
+              <i class="fa-brands fa-python"></i>
+              <span>PYTHON</span>
+            </div>
+            <div class="interes">
+              <i class="fa-brands fa-angular"></i>
+              <span>ANGULAR</span>
+            </div>
+            <div class="interes">
+              <i class="fa-brands fa-swift"></i>
+              <span>SWIFT</span>
+            </div>
+            <div class="interes">
+              <i class="fa-brands fa-apple"></i>
+              <span>MAC OS</span>
+            </div>
+            <div class="interes">
+              <i class="fa-brands fa-java"></i>
+              <span>JAVA</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-book"></i>
+              <span>LIBROS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button> <a href="https://publuu.com/flip-book/263816/620381" download>Descargar CV<i class="fa-solid fa-download"></i>
+        <span class="overlay"></span></a>
+     </button>
+  </section>
+
+  <!-- SECCION SKILLS -->
+  <section class="skills" id="skills">
+    <div class="contenido-seccion">
+      <h2>Skills</h2>
+      <div class="fila">
+        <!-- Technical Skill -->
+     
+      <div class="col">
+          
+        <h3>Technical Skills</h3>
+            <div class="skill">
+              <span>HTML</span>
+              <i class="fa-brands fa-html5"></i>
+             <!-- <p>creatividad para estructurar y maquetar tu sitio web.</p> -->
+           </div>
+            <div class="skill">
+            <span>JAVASCRIPT</span>
+            <i class="fa-brands fa-js"></i>
+           <!--<p>habilidades en bucles y funcionalidades de logica.</p> --> 
+          </div>
+          <div class="skill">
+            <span>CSS</span>
+            <i class="fa-brands fa-css3"></i>
+           <!-- <p>Manejo de estilos para una mejor apariencia.</p> -->
+          </div>
+          <div class="skill">
+            <span>REACT</span>
+            <i class="fa-brands fa-react"></i>
+          <!--  <p>una de las librerias mas versatiles en la actualidad, permite tener una mejor interfaz y una menor linea de codigo gracias a sus componentes.</p> -->
+          </div>
+          <div class="skill">
+            <span>GITHUB</span>
+            <i class="fa-brands fa-github"></i>
+           <!-- <p>usando la tecnologia de Github puedo trabajar, compartir y actualizar mi web.</p> -->
+          </div>
+        
+      </div>
+  
+        <!-- Professional Skill -->
+       
+        <div class="col">
+          
+          <h3>Professional Skills</h3>
+          <div class="skill">
+            <span>COMUNICACIÓN</span>
+            <i class="fa-brands fa-teamspeak"></i>
+          <!-- <p>Me gusta mantener informado al equipo de desarrollo.</p> --> 
+          </div>
+          <div class="skill">
+            <span>TRABAJO EN EQUIPO</span>
+            <i class="fa-solid fa-people-arrows"></i>
+          <!--  <p>aprender e intercambiar ideas es la mejor manera de llegar al éxito.</p> -->
+          </div>
+          <div class="skill">
+            <span>CREATIVIDAD</span>
+            <i class="fa-solid fa-lightbulb"></i>
+           <!-- <p>me gusta darle caracteristicas unicas y diferentes a mis proyectos.</p> -->
+          </div>
+          <div class="skill">
+            <span>DEDICACIÓN</span>
+            <i class="fa-solid fa-clock"></i>
+          <!--  <p>me gusta entregar mis proyectos a tiempo</p> -->
+          </div>
+          <div class="skill">
+            <span>PROYECT MANAGEMENT</span>
+            <i class="fa-solid fa-diagram-project fa-spin"></i>
+          <!--   <p>creando visión para tu negocio.</p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECCION CURRICULUM -->
+  <section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+      <h2>Curriculum</h2>
+      <div class="fila">
+        <div class="col izquierda">
+          <h3>Educacion</h3>
+          <div class="item izq">
+            <h4>Desarrollador Frontend - React</h4>
+            <span class="casa">Academlo</span>
+            <span class="fecha">2023</span>
+            <p>tres meses desarrollando con las tecnologias; JAVASCRIPT - HTML & CSS </p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+          <div class="item izq">
+            <h4>Graphig Desing</h4>
+            <span class="casa">Adobe photoshop</span>
+            <span class="fecha">2021-2023</span>
+            <p>Experencia como diseñador de imagen.</p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+          <div class="item izq">
+          <h4>Secundaria</h4>
+          <span class="casa">Bachiller en Ciencias</span>
+          <span class="fecha">2004 - 2009</span>
+          <p>Graduado del L.B Luis Castro con meritos.</p>
+          <div class="conectori">
+            <div class="circuloi"></div>
+          </div>
+        </div>
+          
+       </div>
+
+        <div class="col derecha">
+          <h3>Preparacion</h3>
+          <div class="item der">
+            <h4>Frontend - React</h4>
+            <span class="casa">Academlo</span>
+            <span class="fecha">2023</span>
+            <p>una de las librerias mas versatiles en la actualidad, permite tener una mejor interfaz y una menor linea de codigo gracias a sus componentes. </p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+          <div class="item der">
+            <h4>HTML</h4>
+            <span class="casa">Academlo</span>
+            <span class="fecha">2023</span>
+            <p>creatividad para estructurar y maquetar tu sitio web.</p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+
+          <div class="item der">
+            <h4>JAVASCRIPT</h4>
+            <span class="casa">Academlo</span>
+            <span class="fecha">2023</span>
+            <p>Me gusta la musica y actualmente tengo una larga trayectoria como productor musical
+              independiente! he grabado mis propias canciones y he colaborado con otros colegas del genero musical. me destaco en el genero urbano y hasta el sol dia hoy sigo creando mis propios proyectos </p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div> 
+          
+          <div class="item der">
+            <h4>CSS</h4>
+            <span class="casa">Academlo</span>
+            <span class="fecha">2023</span>
+            <p>Manejo de estilos para una mejor apariencia. </p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>  
+          
+          <div class="item der">
+            <h4>GITHUB</h4>
+            <span class="casa">Academlo</span>
+            <span class="fecha">2023</span>
+            <p> habilidades en bucles y funcionalidades de logica. </p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div> 
+          
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+ 
+
+  <!-- SECCION PORTFOLIO -->
+  <section id="myproyects" class="portafolio">
+    <div class="contenido-seccion">
+      <h2>PROYECTOS</h2>
+      <div class="galeria">
+        <div class="proyecto">
+          <img src="assets/img/image2.jpg" alt="">
+          <div class="overlay">
+            <h3>Academlo shop</h3>
+            <ul class="ulsection">
+              <li>
+                <a href="https://github.com/gfzab/miprimer_ecomerce.git" target="_blank"><span>Abrir enlace
+                    Github</span></a>
+                <i class="fa-brands fa-github"></i>
+              </li>
+              <li>
+                <a href="https://miprimer-ecomerce.vercel.app/" target="_blank"><span>Abrir enlace Vercel</span></a>
+                <i class="fa-solid fa-globe"></i>
+              </li>/**/
+            </ul>
+          </div>
+        </div>
+        <div class="proyecto">
+          <img src="assets/img/image3.jpg" type="image" alt="">
+          <div class="overlay">
+            <h3>Galletas de la fortuna</h3>
+            <ul class="ulsection">
+              <li>
+                <a href="https://github.com/gfzab/galletasdelafortuna.git" target="_blank"><span>Abrir enlace
+                    Github</span></a>
+                <i class="fa-brands fa-github"></i>
+              </li>
+              <li>
+                <a href="https://galletasdelafortuna-pied.vercel.app/" target="_blank"><span>Abrir enlace
+                    Vercel</span></a>
+                <i class="fa-solid fa-globe"></i>
+              </li>
+            </ul>
+          </div>
+  
+  
+        </div>
+  
+        <div class="proyecto">
+          <img src="assets/img/image4.jpg" alt="">
+          <div class="overlay">
+            <h3>Rick & Morty App</h3>
+            <ul class="ulsection">
+              <li>
+                <a href="https://github.com/gfzab/rick-and-morty-app.git" target="_blank"><span>Abrir enlace
+                    Github</span></a>
+                <i class="fa-brands fa-github"></i>
+              </li>
+              <li>
+                <a href="https://rick-and-morty-app-self.vercel.app/" target="_blank"><span>Abrir enlace Vercel</span></a>
+                <i class="fa-solid fa-globe"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="proyecto">
+          <img src="assets/img/image5.jpg" alt="">
+          <div class="overlay">
+            <h3>Aplicación del Clima</h3>
+            <ul class="ulsection">
+              <li>
+                <a href="https://github.com/gfzab/app-clima.git" target="_blank"><span>Abrir enlace Github</span></a>
+                <i class="fa-brands fa-github"></i>
+              </li>
+              <li>
+                <a href="https://app-clima-three-black.vercel.app/" target="_blank"><span>Abrir enlace Vercel</span></a>
+                <i class="fa-solid fa-globe"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="proyecto">
+          <img src="assets/img/image6.jpg" alt="">
+          <div class="overlay">
+            <h3>Pokedex</h3>
+            <ul class="ulsection">
+              <li>
+                <a href="https://github.com/gfzab/pokedex.git" target="_blank"><span>Abrir enlace Github</span></a>
+                <i class="fa-brands fa-github"></i>
+              </li>
+              <li>
+                <a href="https://pokedex-beryl-zeta.vercel.app/" target="_blank"><span>Abrir enlace Vercel</span></a>
+                <i class="fa-solid fa-globe"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+  
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+      <h2>CONTACTO</h2>
+      <div class="fila">
+        <!--FORMULARIO-->
+        <div class="col">
+          <input type="text" placeholder="Tú Nombre">
+          <input type="text" placeholder="Número telefónico">
+          <input type="text" placeholder="Dirección de correo">
+          <input type="text" placeholder="Tema">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+          <button>
+            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+            <span class="overlay"></span>
+          </button>
+        </div>
+        <!--MAPA-->
+        <div class="col">
+          <img src="/img/image-map.jpg" alt="">
+          <div class="info">
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                Yopal - Casanare Colombia.
+              </li>
+              <li>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                LLamanos: +57 312 3396351
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                Email: gfzabala93@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <a href="#inicio" class="arriba">
+     <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+    <a href="https://www.facebook.com/profile.php?id=100076507928080"
+      target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.linkedin.com/in/gabriel-emilio-zabala-serrano-248a46189/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/gfzab" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://w.app/khKWNa" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+  </div>
+  </footer>
+
+  <script src="/assets/js/script.js"></script>
+
+</body>
+
+</html>
